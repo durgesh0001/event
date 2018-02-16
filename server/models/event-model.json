@@ -1,0 +1,36 @@
+{
+  "name": "eventModel",
+  "plural": "eventModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "from_date": {
+      "type": "date"
+    },
+    "from_time": {
+      "type": "string"
+    },
+    "to_date": {
+      "type": "date"
+    },
+    "to_time": {
+      "type": "string"
+    },
+    "is_enabled": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
